@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-
+    <!--
+        exercise: control over elements and their classes using
+        hasclass adclass removeclass and toggle class
+    -->
 <head>
     <title>S013/jq class</title>
     <meta charset="utf-8" />
@@ -55,14 +58,16 @@
             </div>
             <div class="footer">
                 <div class="buttons">
-                    <!-- <button id="btnon">ON</button>
-                    <button id="btnoff">OFF</button> -->
+        <!-- integrated on and off function in one button -->
                     <button id="btnonoff" class="onoff">ON/OFF</button>
+        <!-- added switch buton as little bonus -->
                     <button id="btnswitch">SWITCH</button>
                 </div>
             </div>
         </div>
     </div>
+    <!-- for proper functioning in gh_pages
+         changed location of /node_modules to /js -->
     <script src="js/jquery.min.js"></script>
     <script src="js/app.js"></script>
 </body>

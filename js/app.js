@@ -1,5 +1,8 @@
 (function main() {
 
+/*  exercise: control over elements and their classes using */
+/*  hasclass adclass removeclass and toggle class           */
+
     $(".circle").click(function() { $(this).toggleClass("filled"); });
 
     $(".square").click(function() {
