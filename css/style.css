@@ -1,3 +1,7 @@
+body {
+    background-image: url("../img/fraise.jpg");
+}
+
 .screen {
     align-content: center;
     text-align: center;
